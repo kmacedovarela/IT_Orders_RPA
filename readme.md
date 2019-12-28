@@ -6,8 +6,8 @@ This is a sample application that replaces a human task with BluePrism RPA digit
 2. fully replacing a human task with a digital worker invocation.
 
 A package named `1.0.0.bprelease` is available in the `extra` folder of this repository. It can be imported to BluePrism 6, and contains two BluePrism Processes and the used Objects. 
-- One of the processes completes a human task by opening the browser, accessing the system page, logging in, selecting the respective task, inserting a comment and uploading a file, and finally, submiting the form and closing the browser. 
-- The other process replaces a human task and based on the input data, it generates the output and sends the response back to RHPAM. 
+- The HardwareSpec process completes a human task by opening the browser, accessing the system page, logging in, selecting the respective task, inserting a comment and uploading a file, and finally, submiting the form and closing the browser. 
+- The Ship Order process replaces a human task and based on the input data, it generates the output and sends the response back to RHPAM. 
 
 Notes: 
 - This application is deployed on Kie Server running on by https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-springboot-app.
