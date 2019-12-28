@@ -10,7 +10,7 @@ A package named `1.0.0.bprelease` is available in the `extra` folder of this rep
 - The Ship Order process replaces a human task and based on the input data, it generates the output and sends the response back to RHPAM. 
 
 Notes: 
-- This application is deployed on Kie Server running on by https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-springboot-app.
+- This application is deployed on Kie Server running on https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-springboot-app.
 - This application consumes an external rest service: https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-vertx-app 	
 - It considers that the BluePrism Task is up and running;
   - BluePrism Task and Guide can be found at: https://github.com/kmacedovarela/blueprism-wih
