@@ -12,7 +12,7 @@ A package named `1.0.0.bprelease` is available in the `extra` folder of this rep
 Notes: 
 - This application is deployed on Kie Server running on https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-springboot-app.
 - This application consumes an external rest service: https://github.com/jbossdemocentral/rhpam7-order-it-hw-demo-vertx-app 	
-- It considers that the BluePrism Task is up and running;
+- It considers that the BluePrism Task is installed and the kie-deployement-config is configured with proper authentication;
   - BluePrism Task and Guide can be found at: https://github.com/kmacedovarela/blueprism-wih
 - It considers that BluePrism 6 is installed and the services are deployed and exposed using literal encoding.
 
